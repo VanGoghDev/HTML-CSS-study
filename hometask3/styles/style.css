@@ -1,0 +1,25 @@
+body {
+    background: #f8f8f8;
+}
+h1 {
+    text-align: center;
+}
+
+#menuLink {
+  text-align: center;
+  color: darkgoldenrod;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#menuList{
+  list-style-type: none;
+}
+
+a {
+    color:goldenrod;
+}
+
+img {
+    border: 1px solid #021a40;
+}
