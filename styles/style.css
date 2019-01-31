@@ -1,0 +1,43 @@
+body {
+    background: #f8f8f8;
+}
+h1 {
+    text-align: center;
+}
+
+#menuLink {
+  text-align: center;
+  color: darkgoldenrod;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#menuList{
+  list-style-type: none;
+}
+
+#menuLink:hover{
+    color: brown;    
+}
+
+a {
+    color:goldenrod;
+}
+
+.header {
+    width: 200px;
+    height: 260px;
+    border: 1px solid #021a40;
+    display: inline-block;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-color: gainsboro;
+}
+
+p:first-letter{
+    color:red;
+    font-size: 25px;
+}
