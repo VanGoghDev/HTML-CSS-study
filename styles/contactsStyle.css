@@ -1,0 +1,18 @@
+input {
+    height: 20px;
+    width: 245px;
+    font-size: 16px;
+}
+
+textarea{
+    width: 490px;
+    font-size: 2em;
+}
+
+textarea::first-letter{
+    font-size: 200%;
+}
+
+.emailField{
+    color: brown;
+}
