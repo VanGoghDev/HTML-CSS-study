@@ -5,6 +5,14 @@ h3 {
  background-color: #eaeaea
 }
 
+=======
+#briefDescript {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
 #specification {
     color: #484343;
     font-size: 16px;
