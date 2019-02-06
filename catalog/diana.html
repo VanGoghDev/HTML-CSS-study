@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/productPageStyle.css">
     <div class="header">
-        <img class="img" src="../images/logo.png" alt="logo">
-        <ui id="menuList">
-        <li><a id="menuLink" href="../index.html">Главная</a></li>
-        <li><a id="menuLink" href="products.html">Каталог</a></li>
-        <li><a id="menuLink" href="../contacts.html">Контакты</a></li>
+        <a href="../index.html"><img class="img" src="../images/logo.png" alt="logo"></a>
+        <ui class="menuList">
+        <li><a class="menuLink" href="../index.html">Главная</a></li>
+        <li><a class="menuLink" href="products.html">Каталог</a></li>
+        <li><a class="menuLink" href="../contacts.html">Контакты</a></li>
     </ui>
     </div>
-    <hr>
 </head>
 
 <body>
     <h2>Сборная модель корабля Diana</h2>
     <h3>Описание товара</h3>
-    <a href="../images/diana.jpg" target="_blank"> <img src="../images/diana.jpg"></a>
-    <p id=briefDescript>Модель Испанского корабля Diana представляет собой классический фрегат 18-го века. Модель сложнее предыдущей, поэтому рекомендуется иметь уже хотя&nbsp;бы небольшой опыт моделирования</p>
-    <!--<ul id=characteristics>
+    <div class="productBrief">
+    <a href="../images/diana.jpg" target="_blank"> <img class="productImg" src="../images/diana.jpg"></a>
+    <p class=briefDescript>Модель Испанского корабля Diana представляет собой классический фрегат 18-го века. Модель сложнее предыдущей, поэтому рекомендуется иметь уже хотя&nbsp;бы небольшой опыт моделирования</p>
+    </div>
+       <!--<ul id=characteristics>
         <li>Масштаб: 1:85</li>
         <li>Изготовитель OcCre</li>
         <li>Длина 850мм</li>
         <li>Высота 635мм</li>
     </ul>-->
+    <button class="buyBtn">Купить</button>
 
-       <table border="1">
+       <table class="charact" border="1">
         <caption>Характеристики товара</caption>
         <tr>
             <th>Масштаб</th>
@@ -62,7 +64,8 @@
 </body>
 <footer>
     <div class="footer"><br>
-        &copy; Все права защищены
+        <p class="rights">&copy; Все права защищены</p>
     </div>
 </footer>
 </html>
+  

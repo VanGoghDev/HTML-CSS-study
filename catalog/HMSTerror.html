@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/productPageStyle.css">
     <div class="header">
-        <img class="img" src="../images/logo.png" alt="logo">
-        <ui id="menuList">
-        <li><a id="menuLink" href="../index.html">Главная</a></li>
-        <li><a id="menuLink" href="products.html">Каталог</a></li>
-        <li><a id="menuLink" href="../contacts.html">Контакты</a></li>
-    </ui>
+        <a href="../index.html"><img class="img" src="../images/logo.png" alt="logo"></a>
+        <ui class="menuList">
+            <li><a class="menuLink" href="../index.html">Главная</a></li>
+            <li><a class="menuLink" href="products.html">Каталог</a></li>
+            <li><a class="menuLink" href="../contacts.html">Контакты</a></li>
+        </ui>
     </div>
-    <hr>
 </head>
 
 <body>
     <h2>Сборная модель корабля HMS Terror</h2>
     <h3>Описание товара</h3>
-    <a href="../images/HMSTerror.png" target="_blank"> <img src="../images/HMSTerror.png"> </a>
-    <p id=briefDescript>Модель британского судна HMS Terror отлично подойдет для новичков, производитель анонсирует ее&nbsp;как &laquo;легкую в&nbsp;сборке&raquo;. К&nbsp;тому&nbsp;же у&nbsp;этого судна интересная и&nbsp;леденящая кровь судьба, которую можно будет рассказывать друзьям и&nbsp;знакомым, видя их&nbsp;восторженные взгляды</p>
+    <div class="productBrief">
+        <a href="../images/HMSTerror.png" target="_blank"> <img class="productImg" src="../images/HMSTerror.png"> </a>
+        <p class=briefDescript>Модель британского судна HMS Terror отлично подойдет для новичков, производитель анонсирует ее&nbsp;как &laquo;легкую в&nbsp;сборке&raquo;. К&nbsp;тому&nbsp;же у&nbsp;этого судна интересная и&nbsp;леденящая кровь судьба, которую можно будет рассказывать друзьям и&nbsp;знакомым, видя их&nbsp;восторженные взгляды</p>
+    </div>
+    <button class="buyBtn">Купить</button>
     <!--<ul id=characteristics>
         <li>Масштаб: 1:65</li>
         <li>Изготовитель OcCre</li>
         <li>Длина 676мм</li>
         <li>Высота 504мм</li>
     </ul>-->
-    <table border="1">
+    <table class="charact" border="1">
+
         <caption>Характеристики товара</caption>
         <tr>
             <th>Масштаб</th>
@@ -59,7 +62,9 @@
 </body>
 <footer>
     <div class="footer"><br>
-        &copy; Все права защищены
+        <p class="rights">&copy; Все права защищены</p>
     </div>
 </footer>
+
+
 </html>

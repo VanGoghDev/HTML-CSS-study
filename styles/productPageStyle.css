@@ -5,6 +5,7 @@ h3 {
  background-color: #eaeaea
 }
 
+=======
 #briefDescript {
     color: #707070;
     font-size: 14px;
@@ -29,6 +30,33 @@ h3 {
 }
 
 img {
-    width: 900px;
+    width: 600px;
     border: 1px solid #021a40;
+}
+
+.productBrief {
+    display: flex;
+    width:800px;
+}
+
+.briefDescript {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.productImg {
+    float: left;
+}
+
+.buyBtn {
+    display: flex;
+    align-content: flex-end;
+    clear: both;
+    
 }
