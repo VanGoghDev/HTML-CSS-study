@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    display: block;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 57px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.slider-text {
+    width: 458px;
+}
+
+.slider-h4 {
+    color: #43a047;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #43a047;
+    letter-spacing: 1.8px;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -2.4px;
+}
+
+.slider-p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    margin-top: 15px;
+}
+
+.button {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    color: #212121;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #f9f9f9;
+}
+
+.button:active {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+.circle {
+    transition: transform 0.3s;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #212121;
+    opacity: 0.2;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.slider-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+
+.circle-active {
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.product {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 30px;
+}
+
+.product:hover .product-content {
+    display: flex;
+}
+
+.product-box {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-content {
+    height: 100%;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    padding: 32px;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-link {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    display: block;
+    text-align: center;
+}
+
+.button-product {
+    width: 48px;
+    line-height: 53px;
+}
+
+.product-h3 {
+    color: #212121;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.product-p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.menu-mini {
+    width: 40px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .padding-site {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .slider-text {
+        width: 70%;
+    }
+    .product-box {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menu-mini {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .logo {
+        margin-top: 5%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .slider-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider-h2 {
+        text-align: center;
+        font-size: 44px;
+    }
+    
+    .slider-p {
+        text-align: center;
+    }
+}
