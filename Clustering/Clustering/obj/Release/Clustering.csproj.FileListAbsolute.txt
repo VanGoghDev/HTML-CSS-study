@@ -1,0 +1,5 @@
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\bin\Release\Clustering.exe.config
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\bin\Release\Clustering.exe
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\bin\Release\Clustering.pdb
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\obj\Release\Clustering.exe
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\obj\Release\Clustering.pdb

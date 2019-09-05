@@ -1,0 +1,5 @@
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\clusterLib\bin\Debug\clusterLib.dll
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\clusterLib\bin\Debug\clusterLib.pdb
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\clusterLib\obj\Debug\clusterLib.dll
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\clusterLib\obj\Debug\clusterLib.pdb
+\\rttv.ru\profile\UserData2\kifirsov\My Documents\Visual Studio 2015\Projects\Clustering\Clustering\clusterLib\obj\Debug\clusterLib.csprojResolveAssemblyReference.cache
